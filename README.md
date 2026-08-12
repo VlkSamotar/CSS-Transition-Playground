@@ -57,4 +57,5 @@ Projekt je dostupný pod licencí MIT (viz soubor LICENSE).
 
 ## ✉️ Autor  
 **Jakub Březa (Vlk samotář)**
+
 [VlkSamotar.cz](https://vlksamotar.cz) | Informatika | Trading | Elektrotechnika
