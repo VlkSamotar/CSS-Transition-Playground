@@ -1,7 +1,7 @@
 # Interaktivní laboratoř transformací – CSS Transition Playground
 
 Tento projekt slouží jako praktická ukázka chování vlastnosti **transition** v CSS.  
-Studenti (nebo kdokoli, kdo se učí frontend) si zde mohou vyzkoušet různé stavové změny prvků — změny barvy, velikosti, průhlednosti, rotace, posunu, stínu a dalších transformací.
+Studenti si zde mohou vyzkoušet různé stavové změny prvků — změny barvy, velikosti, průhlednosti, rotace, posunu, stínu a dalších transformací.
 
 Cílem projektu je pochopit rozdíl mezi:
 - **transition** → reaguje na změnu stavu (např. `:hover`, `:focus`, přidání/odebrání třídy)
