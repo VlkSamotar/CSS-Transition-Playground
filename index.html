@@ -1,0 +1,102 @@
+<!-- 
+======================================================================
+PROJEKT: INTERAKTIVNÍ LABORATOŘ TRANSFORMACÍ – CSS TRANSITION PLAYGROUND
+Tvým úkolem je vytvořit interaktivní prvky, které reagují na uživatele
+pomocí CSS vlastnosti TRANSITION. Nepoužívej @keyframes – cílem je
+pochopit rozdíl mezi stavovou změnou (transition) a animací (keyframes).
+======================================================================
+
+🥉 ÚROVEŇ 1: Základní efekty (barvy, velikost, opacity)
+----------------------------------------------------------------------
+1. Najdi v HTML prvek s class "box-basic".
+2. Pomocí CSS mu nastav:
+   - výchozí barvu pozadí
+   - výchozí velikost (šířka, výška)
+   - transition: all 0.4s ease
+3. Vytvoř stav :hover, který:
+   - změní barvu pozadí
+   - zvětší box (např. scale)
+   - změní průhlednost (opacity)
+Ukázka:
+.box-basic:hover {
+  background-color: ...;
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+🥈 ÚROVEŇ 2: Transformace a pohyb (rotate, translate, border-radius)
+----------------------------------------------------------------------
+1. Najdi prvek s class "box-advanced".
+2. Nastav mu transition na transform + background-color.
+3. Vytvoř stav :hover, který:
+   - otočí prvek (rotate)
+   - posune prvek (translateX nebo translateY)
+   - změní tvar (border-radius)
+Ukázka:
+.box-advanced:hover {
+  transform: rotate(10deg) translateY(-10px);
+  border-radius: 30px;
+}
+
+🥇 ÚROVEŇ 3: Mini galerie (více prvků, různé efekty)
+----------------------------------------------------------------------
+1. Najdi container s class "gallery".
+2. Vytvoř 4–6 kartiček (class "card").
+3. Každé kartičce nastav jiný efekt při hoveru:
+   - jedna se zvětší
+   - druhá se otočí
+   - třetí se posune
+   - čtvrtá změní barvu + stín
+4. Všechny efekty musí používat transition.
+Ukázka:
+.card:nth-child(3):hover {
+  transform: translateX(15px);
+  background-color: ...;
+}
+
+💎 BONUS PRO MISTRY:
+----------------------------------------------------------------------
+- Přidej transition-delay.
+- Vytvoř efekt, který se aktivuje při kliknutí (pomocí classList.toggle v JS).
+- Přidej "laboratorní mód": po kliknutí na tlačítko se všem prvkům změní styl.
+- Přidej tooltip, který se zobrazí po najetí na prvek (opacity + transition).
+- Vytvoř vlastní galerii efektů – každý prvek jiný typ transformace.
+
+======================================================================
+Kódování zdar, laboratorní techniku!
+======================================================================
+-->
+
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interaktivní laboratoř transformací</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Interaktivní laboratoř transformací</h1>
+
+    <h2>Základní box</h2>
+    <div class="box-basic">Basic</div>
+
+    <h2>Pokročilý box</h2>
+    <div class="box-advanced">Advanced</div>
+
+    <h2>Mini galerie efektů</h2>
+    <div class="gallery">
+      <div class="card">1</div>
+      <div class="card">2</div>
+      <div class="card">3</div>
+      <div class="card">4</div>
+    </div>
+
+  </div>
+</body>
+
+</html>

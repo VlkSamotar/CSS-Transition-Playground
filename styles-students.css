@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ============================
+   ÚROVEŇ 1 – Základní box
+============================ */
+
+.box-basic {
+    width: 150px;
+    height: 150px;
+    background:
+        /* doplň barvu */
+    ;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+
+    /* TODO: doplň transition */
+}
+
+.box-basic:hover {
+    /* TODO: doplň změny (barva, scale, opacity) */
+}
+
+/* ============================
+   ÚROVEŇ 2 – Pokročilý box
+============================ */
+
+.box-advanced {
+    width: 150px;
+    height: 150px;
+    background:
+        /* doplň barvu */
+    ;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+
+    /* TODO: doplň transition na transform + background-color */
+}
+
+.box-advanced:hover {
+    /* TODO: doplň rotate, translate, border-radius, barvu */
+}
+
+/* ============================
+   ÚROVEŇ 3 – Galerie
+============================ */
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background:
+        /* doplň barvu */
+    ;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+
+    /* TODO: doplň transition */
+}
+
+/* Každá kartička jiný efekt */
+.card:nth-child(1):hover {
+    /* TODO: scale + barva */
+}
+
+.card:nth-child(2):hover {
+    /* TODO: rotate + barva */
+}
+
+.card:nth-child(3):hover {
+    /* TODO: translate + barva */
+}
+
+.card:nth-child(4):hover {
+    /* TODO: stín + barva */
+}
